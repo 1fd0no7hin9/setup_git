@@ -1,4 +1,4 @@
-# docker_install <br />
+# setup git to use sshkey connection<br />
 ssh-keygen -t rsa<br />
 
 ~/.ssh/config<br />
