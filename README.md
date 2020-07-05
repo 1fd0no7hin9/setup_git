@@ -1,18 +1,18 @@
-# docker_install
-ssh-keygen -t rsa
+# docker_install <br />
+ssh-keygen -t rsa<br />
 
-~/.ssh/config
-Host github
-  Hostname github.com
-  IdentifyFile ~/.ssh/$sshkey_filename
+~/.ssh/config<br />
+Host github<br />
+  Hostname github.com<br />
+  IdentifyFile ~/.ssh/$sshkey_filename<br />
   
-.git/config
-[remote "origin"]
-  url = git@github.com:<USER>/<REPO.git>
-  fetch = +refs/heads/*:refs/remotes/origin/*
-[user]
-  name = $GIT_USER
-  email = $GIT_EMAIL
-[brach "master"]
-  remote = origin
-  merge = refs/heads/master
+.git/config<br />
+[remote "origin"]<br />
+  url = git@github.com:<USER>/<REPO.git><br />
+  fetch = +refs/heads/*:refs/remotes/origin/*<br />
+[user]<br />
+  name = $GIT_USER<br />
+  email = $GIT_EMAIL<br />
+[brach "master"]<br />
+  remote = origin<br />
+  merge = refs/heads/master<br />
